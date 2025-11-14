@@ -57,6 +57,11 @@ set PROJECT_TOKEN="123456#1234abcd-****-****-****-************"
 $env:PROJECT_TOKEN="123456#1234abcd-****-****-****-************"
 ```
 
+#### Create and Configure SmartUI Config
+```bash
+npx smartui config:create smartui.json
+```
+
 #### Add the Capabilites and Screenshot hook in the test script
 
 - Configure the capabilities 
@@ -101,6 +106,11 @@ set PROJECT_TOKEN="123456#1234abcd-****-****-****-************"
   For **Windows** Powershell:
 ```bash
 $env:PROJECT_TOKEN="123456#1234abcd-****-****-****-************"
+```
+
+#### Create and Configure SmartUI Config
+```bash
+npx smartui config:create smartui.json
 ```
 
 #### Add the Screenshot hook in the test script
